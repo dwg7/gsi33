@@ -1,0 +1,533 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139,
+          36
+        ]
+      },
+      "properties": {
+        "no": 1,
+        "name": "坉",
+        "codepoint": "U+5749",
+        "mj": "MJ008938"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.01,
+          36
+        ]
+      },
+      "properties": {
+        "no": 2,
+        "name": "弰",
+        "codepoint": "U+5F30",
+        "mj": "MJ011189"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.02,
+          36
+        ]
+      },
+      "properties": {
+        "no": 3,
+        "name": "椧",
+        "codepoint": "U+6927",
+        "mj": "MJ014145"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.03,
+          36
+        ]
+      },
+      "properties": {
+        "no": 4,
+        "name": "蔻",
+        "codepoint": "U+853B",
+        "mj": "MJ058504"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.04,
+          36
+        ]
+      },
+      "properties": {
+        "no": 5,
+        "name": "𦭲",
+        "codepoint": "U+26B72",
+        "mj": "MJ046358"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.05,
+          36
+        ]
+      },
+      "properties": {
+        "no": 6,
+        "name": "𫞈",
+        "codepoint": "U+2B788",
+        "mj": "MJ057710"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139,
+          35.99
+        ]
+      },
+      "properties": {
+        "no": 7,
+        "name": "𫟰",
+        "codepoint": "U+2B7F0",
+        "mj": "MJ058910"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.01,
+          35.99
+        ]
+      },
+      "properties": {
+        "no": 8,
+        "name": "𫞋",
+        "codepoint": "U+2B78B",
+        "mj": "MJ014410"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.02,
+          35.99
+        ]
+      },
+      "properties": {
+        "no": 9,
+        "name": "𣖾",
+        "codepoint": "U+235BE",
+        "mj": "MJ038168"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.03,
+          35.99
+        ]
+      },
+      "properties": {
+        "no": 10,
+        "name": "𠏹",
+        "codepoint": "U+203F9",
+        "mj": "MJ030848"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.04,
+          35.99
+        ]
+      },
+      "properties": {
+        "no": 11,
+        "name": "𡈽",
+        "codepoint": "U+2123D",
+        "mj": "MJ032932"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.05,
+          35.99
+        ]
+      },
+      "properties": {
+        "no": 12,
+        "name": "𡋽",
+        "codepoint": "U+212FD",
+        "mj": "MJ033033"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139,
+          35.98
+        ]
+      },
+      "properties": {
+        "no": 13,
+        "name": "𡶒",
+        "codepoint": "U+21D92",
+        "mj": "MJ034538"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.01,
+          35.98
+        ]
+      },
+      "properties": {
+        "no": 14,
+        "name": "𡸴",
+        "codepoint": "U+21E34",
+        "mj": "MJ034640"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.02,
+          35.98
+        ]
+      },
+      "properties": {
+        "no": 15,
+        "name": "𣇃",
+        "codepoint": "U+231C3",
+        "mj": "MJ037700"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.03,
+          35.98
+        ]
+      },
+      "properties": {
+        "no": 16,
+        "name": "𣕚",
+        "codepoint": "U+2355A",
+        "mj": "MJ038132"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.04,
+          35.98
+        ]
+      },
+      "properties": {
+        "no": 17,
+        "name": "𣘹",
+        "codepoint": "U+23639",
+        "mj": "MJ038224"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.05,
+          35.98
+        ]
+      },
+      "properties": {
+        "no": 18,
+        "name": "𣜿",
+        "codepoint": "U+2373F",
+        "mj": "MJ038332"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139,
+          35.97
+        ]
+      },
+      "properties": {
+        "no": 19,
+        "name": "𣷓",
+        "codepoint": "U+23DD3",
+        "mj": "MJ039381"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.01,
+          35.97
+        ]
+      },
+      "properties": {
+        "no": 20,
+        "name": "𥔎",
+        "codepoint": "U+2550E",
+        "mj": "MJ042849"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.02,
+          35.97
+        ]
+      },
+      "properties": {
+        "no": 21,
+        "name": "𥧄",
+        "codepoint": "U+259C4",
+        "mj": "MJ043488"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.03,
+          35.97
+        ]
+      },
+      "properties": {
+        "no": 22,
+        "name": "𥹖",
+        "codepoint": "U+25E56",
+        "mj": "MJ044210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.04,
+          35.97
+        ]
+      },
+      "properties": {
+        "no": 23,
+        "name": "𦙾",
+        "codepoint": "U+2667E",
+        "mj": "MJ045521"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.05,
+          35.97
+        ]
+      },
+      "properties": {
+        "no": 24,
+        "name": "𦫿",
+        "codepoint": "U+26AFF",
+        "mj": "MJ046282"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139,
+          35.96
+        ]
+      },
+      "properties": {
+        "no": 25,
+        "name": "𧃴",
+        "codepoint": "U+270F4",
+        "mj": "MJ047259"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.01,
+          35.96
+        ]
+      },
+      "properties": {
+        "no": 26,
+        "name": "𧦅",
+        "codepoint": "U+27985",
+        "mj": "MJ048837"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.02,
+          35.96
+        ]
+      },
+      "properties": {
+        "no": 27,
+        "name": "𩗏",
+        "codepoint": "U+295CF",
+        "mj": "MJ053729"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.03,
+          35.96
+        ]
+      },
+      "properties": {
+        "no": 28,
+        "name": "𩸕",
+        "codepoint": "U+29E15",
+        "mj": "MJ055201"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.04,
+          35.96
+        ]
+      },
+      "properties": {
+        "no": 29,
+        "name": "𪀯",
+        "codepoint": "U+2A02F",
+        "mj": "MJ055513"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.05,
+          35.96
+        ]
+      },
+      "properties": {
+        "no": 30,
+        "name": "𩹉",
+        "codepoint": "U+29E49",
+        "mj": "MJ055230"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139,
+          35.95
+        ]
+      },
+      "properties": {
+        "no": 31,
+        "name": "𨺉",
+        "codepoint": "U+28E89",
+        "mj": "MJ052363"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.01,
+          35.95
+        ]
+      },
+      "properties": {
+        "no": 32,
+        "name": "𨸶",
+        "codepoint": "U+28E36",
+        "mj": "MJ052313"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.02,
+          35.95
+        ]
+      },
+      "properties": {
+        "no": 33,
+        "name": "𡵅",
+        "codepoint": "U+21D45",
+        "mj": "MJ034487"
+      }
+    }
+  ]
+}

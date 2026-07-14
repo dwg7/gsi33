@@ -1,0 +1,28 @@
+{
+  "name": "gsi33",
+  "version": "0.1.0",
+  "description": "GSI Plane 2 Kanji Test Set — Unicode supplementary-plane place-name character regression tests",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "test:phase1": "node --test test/phase1-retention.test.mjs",
+    "test:phase2": "node --test test/phase2-glyphs.test.mjs",
+    "report": "node scripts/generate-report.mjs",
+    "generate:data": "node scripts/generate-data.mjs",
+    "generate:geojson": "node scripts/generate-geojson.mjs",
+    "generate:expected-failures": "node scripts/generate-expected-failures.mjs",
+    "download:font": "node scripts/download-font.mjs"
+  },
+  "dependencies": {
+    "@mapbox/glyph-pbf-composite": "^0.0.3",
+    "@mapbox/vector-tile": "^1.3.1",
+    "fontnik": "^0.7.7",
+    "vt-pbf": "^3.1.3",
+    "pbf": "^3.2.1"
+  }
+}
