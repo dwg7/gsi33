@@ -16,7 +16,8 @@
     "generate:data": "node scripts/generate-data.mjs",
     "generate:geojson": "node scripts/generate-geojson.mjs",
     "generate:expected-failures": "node scripts/generate-expected-failures.mjs",
-    "download:font": "node scripts/download-font.mjs"
+    "download:font": "node scripts/download-font.mjs",
+    "check:tippecanoe": "node scripts/tippecanoe-check.mjs"
   },
   "dependencies": {
     "@mapbox/glyph-pbf-composite": "^0.0.3",

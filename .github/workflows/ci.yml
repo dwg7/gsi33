@@ -43,6 +43,26 @@ jobs:
         run: npm run download:font
       - run: npm run test:phase2
 
+  tippecanoe:
+    name: Tippecanoe MVT check (optional, informational)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Install tippecanoe
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential libsqlite3-dev zlib1g-dev
+          git clone --depth 1 https://github.com/mapbox/tippecanoe.git /tmp/tippecanoe-src
+          make -C /tmp/tippecanoe-src -j"$(nproc)"
+          sudo make -C /tmp/tippecanoe-src install
+      - run: npm run check:tippecanoe
+
   report:
     name: Generate CI report
     runs-on: ubuntu-latest
