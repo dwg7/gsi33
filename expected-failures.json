@@ -1,0 +1,350 @@
+[
+  {
+    "tool": "pbf",
+    "codePoint": "U+26B72",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+2B788",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+2B7F0",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+2B78B",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+235BE",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+203F9",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+2123D",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+212FD",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+21D92",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+21E34",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+231C3",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+2355A",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+23639",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+2373F",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+23DD3",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+2550E",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+259C4",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+25E56",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+2667E",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+26AFF",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+270F4",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+27985",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+295CF",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+29E15",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+2A02F",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+29E49",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+28E89",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+28E36",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "pbf",
+    "codePoint": "U+21D45",
+    "reason": "pbf's writeUtf8() combines a surrogate pair with `| 0x10000` instead of `+ 0x10000` (pbf@3.3.0, index.js:604). For Plane 2 code points (U+20000-U+2FFFF), (codepoint - 0x10000) already has bit 0x10000 set, so the OR has no effect and the encoded UTF-8 bytes represent (codepoint - 0x10000) instead of the original codepoint. Affects any library that writes UTF-8 string fields through pbf, including vt-pbf and @mapbox/vector-tile used in the MVT round-trip test.",
+    "trackingIssue": "https://github.com/mapbox/pbf/issues (not yet filed upstream; discovered during gsi33 Phase 1 implementation)"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+26B72",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+2B788",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+2B7F0",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+2B78B",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+235BE",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+203F9",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+2123D",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+212FD",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+21D92",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+21E34",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+231C3",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+2355A",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+23639",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+2373F",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+23DD3",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+2550E",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+259C4",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+25E56",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+2667E",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+26AFF",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+270F4",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+27985",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+295CF",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+29E15",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+2A02F",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+29E49",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+28E89",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+28E36",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  },
+  {
+    "tool": "fontnik",
+    "codePoint": "U+21D45",
+    "reason": "fontnik.range() validates `start`/`end` as 0-65535 at the native binding layer (fontnik@0.7.7, src/glyphs.cpp:350-355) and throws synchronously for any range touching a non-BMP code point, so glyph PBF ranges cannot be requested for SIP characters at all. This is a BMP-only limitation of the SDF glyph-generation pipeline used by MapLibre/Mapbox GL styles; see mapbox/mapbox-gl-js#4001 (supplementary-plane glyph rendering support).",
+    "trackingIssue": "https://github.com/mapbox/mapbox-gl-js/issues/4001"
+  }
+]

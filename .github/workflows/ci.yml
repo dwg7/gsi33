@@ -1,0 +1,95 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  phase1:
+    name: Phase 1 (data retention)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run test:phase1
+
+  phase2:
+    name: Phase 2 (glyph path)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - run: npm ci
+      - name: Cache IPAmj Mincho font
+        id: font-cache
+        uses: actions/cache@v4
+        with:
+          path: fonts/ipamjm.ttf
+          key: ipamjm-006.01-a3e84f495f3c388db7a1473bf1985c1c076d0c814100f10a027ca6853eb1e8cb
+      - name: Download font
+        if: steps.font-cache.outputs.cache-hit != 'true'
+        run: npm run download:font
+      - run: npm run test:phase2
+
+  tippecanoe:
+    name: Tippecanoe MVT check (optional, informational)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Install tippecanoe
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential libsqlite3-dev zlib1g-dev
+          git clone --depth 1 https://github.com/mapbox/tippecanoe.git /tmp/tippecanoe-src
+          make -C /tmp/tippecanoe-src -j"$(nproc)"
+          sudo make -C /tmp/tippecanoe-src install
+      - run: npm run check:tippecanoe
+
+  report:
+    name: Generate CI report
+    runs-on: ubuntu-latest
+    needs: [phase1, phase2]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - run: npm ci
+      - name: Cache IPAmj Mincho font
+        id: font-cache
+        uses: actions/cache@v4
+        with:
+          path: fonts/ipamjm.ttf
+          key: ipamjm-006.01-a3e84f495f3c388db7a1473bf1985c1c076d0c814100f10a027ca6853eb1e8cb
+      - name: Download font
+        if: steps.font-cache.outputs.cache-hit != 'true'
+        run: npm run download:font
+      - run: npm run report
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gsi33-report
+          path: results/
